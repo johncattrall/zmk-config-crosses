@@ -55,8 +55,8 @@
         layer_0 {
             bindings = <
 &lt 3 Q  &as W  &as E     &as R            &as T       &as Y     &as U      &as I           &as O    &as P
-&as A    &as S  &kp D     &kp F            &as G       &as H     &as J      &as K           &as L    &kp BACKSPACE
-&as Z    &as X  &as C     &lt 2 V          &lt 1 B     &lt 1 N   &as 2 M    &as COMMA       &as DOT  &as FSLH
+&as A    &as S  &as D     &as F            &as G       &as H     &as J      &as K           &as L    &kp BACKSPACE
+&as Z    &as X  &as C     &lt 2 V          &lt 1 B     &lt 1 N   &lt 2 M    &as COMMA       &as DOT  &as FSLH
                 &kp LGUI  &mt LCTRL SPACE  &mkp MB1    &mkp MB2  &kp ENTER  &kp LEFT_SHIFT
             >;
         };
