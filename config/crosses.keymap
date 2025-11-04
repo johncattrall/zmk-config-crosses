@@ -54,18 +54,18 @@
 
         layer_0 {
             bindings = <
-&lt 3 Q  &as W  &kp E     &kp R            &kp T       &kp Y     &kp U      &kp I           &kp O    &kp P
-&kp A    &kp S  &kp D     &kp F            &kp G       &kp H     &kp J      &kp K           &kp L    &kp BACKSPACE
-&kp Z    &kp X  &kp C     &lt 2 &as V          &lt 1 B     &lt 1 N   &lt 2 M    &kp COMMA       &kp DOT  &kp FSLH
+&lt 3 Q  &as W  &as E     &as R            &as T       &as Y     &as U      &as I           &as O    &as P
+&as A    &as S  &kp D     &kp F            &as G       &as H     &as J      &as K           &as L    &kp BACKSPACE
+&as Z    &as X  &as C     &lt 2 V          &lt 1 B     &lt 1 N   &as 2 M    &as COMMA       &as DOT  &as FSLH
                 &kp LGUI  &mt LCTRL SPACE  &mkp MB1    &mkp MB2  &kp ENTER  &kp LEFT_SHIFT
             >;
         };
 
         layer_1 {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp N7            &kp N8         &kp NUMBER_9  &kp NUMBER_0
+&as NUMBER_1  &as NUMBER_2  &as NUMBER_3  &as NUMBER_4  &as NUMBER_5    &as NUMBER_6  &as N7            &as N8         &as NUMBER_9  &as NUMBER_0
 &kp ESCAPE    &kp N2        &kp N3        &mkp MB1      &mkp MB2        &kp N6        &kp N7            &kp N8         &kp N9        &kp N0
-&kp GRAVE     &kp LCTRL     &kp LEFT_ALT  &kp CAPS      &kp TAB         &kp MINUS     &kp LEFT_BRACKET  &kp SEMICOLON  &kp COMMA     &kp BACKSLASH
+&as GRAVE     &kp LCTRL     &kp LEFT_ALT  &kp CAPS      &kp TAB         &as MINUS     &kp LEFT_BRACKET  &as SEMICOLON  &as COMMA     &kp BACKSLASH
                             &none         &none         &none           &kp F11       &kp F12           &kp SPACE
             >;
         };
