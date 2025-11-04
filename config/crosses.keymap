@@ -59,6 +59,16 @@
             bindings = <&mo 2>;
             key-positions = <23 32>;
         };
+
+        layer1-combo-right {
+            bindings = <&mo 1>;
+            key-positions = <25 34>;
+        };
+
+        layer2-combo-right {
+            bindings = <&mo 2>;
+            key-positions = <26 34>;
+        };
     };
 
     macros {
