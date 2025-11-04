@@ -57,7 +57,7 @@
 
         layer1-combo-right {
             bindings = <&mo 1>;
-            key-positions = <25 33>;
+            key-positions = <25 35>;
         };
 
         layer2-combo-left {
@@ -67,7 +67,7 @@
 
         layer2-combo-right {
             bindings = <&mo 2>;
-            key-positions = <26 33>;
+            key-positions = <26 35>;
         };
     };
 
@@ -82,10 +82,10 @@
 
         layer_0 {
             bindings = <
-&lt 3 Q  &as W  &as E     &as R            &as T       &as Y     &as U      &as I           &as O    &as P
-&as A    &as S  &as D     &as F            &as G       &as H     &as J      &as K           &as L    &kp BACKSPACE
-&as Z    &as X  &as C     &as V            &as B       &as N     &as M      &as COMMA       &as DOT  &as FSLH
-                &kp LGUI  &mt LCTRL SPACE  &mkp MB1    &mkp MB2  &kp ENTER  &kp LEFT_SHIFT
+&lt 3 Q  &as W  &as E     &as R            &as T       &as Y     &as U      &as I      &as O    &as P
+&as A    &as S  &as D     &as F            &as G       &as H     &as J      &as K      &as L    &kp BACKSPACE
+&as Z    &as X  &as C     &as V            &as B       &as N     &as M      &as COMMA  &as DOT  &as FSLH
+                &kp LGUI  &mt LCTRL SPACE  &mkp MB1    &mkp MB2  &kp ENTER  &kp TAB
             >;
         };
 
