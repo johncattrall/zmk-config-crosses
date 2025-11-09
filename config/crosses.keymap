@@ -111,7 +111,7 @@
         layer_2 {
             bindings = <
 &none  &none           &none           &mkp RCLK        &mkp LCLK      &mkp MB1            &mkp MB2            &none           &none           &none
-&none  &none           &kp UP_ARROW    &none            &kp PAGE_UP    &shifted LA(H)      &shifted LA(L)      &shifted LA(K)  &shifted LA(L)  &none
+&none  &none           &kp UP_ARROW    &none            &kp PAGE_UP    &shifted LA(H)      &shifted LA(L)      &shifted LA(K)  &shifted LA(J)  &none
 &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &kp EQUAL           &kp RBKT            &kp SQT         &kp PERIOD      &kp SLASH
                        &none           &none            &none          &shifted LA(ENTER)  &shifted LA(SPACE)  &kp SPACE
             >;
