@@ -57,22 +57,22 @@
 
         layer1-combo-left {
             bindings = <&mo 1>;
-            key-positions = <24 31>;
+            key-positions = <24 32>;
         };
 
         layer2-combo-left {
             bindings = <&mo 2>;
-            key-positions = <23 31>;
+            key-positions = <23 32>;
         };
 
         layer1-combo-right {
             bindings = <&mo 1>;
-            key-positions = <25 34>;
+            key-positions = <25 33>;
         };
 
         layer2-combo-right {
             bindings = <&mo 2>;
-            key-positions = <26 34>;
+            key-positions = <26 33>;
         };
 
         shiftenter {
