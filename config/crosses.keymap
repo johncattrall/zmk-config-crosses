@@ -128,10 +128,10 @@
 
         Mouse {
             bindings = <
-&none         &none         &none         &none         &none         &none         &none   &none       &none       &none
-&none         &none         &none         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 3  &none   &bt BT_CLR  &bt BT_CLR  &none
-&bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &none         &none         &trans        &trans  &mkp MCLK   &trans      &none
-                            &none         &trans        &mkp MCLK     &trans        &trans  &none
+&none  &none  &none  &none   &mkp MB1  &mkp MB2  &none   &none  &none   &none
+&none  &none  &none  &none   &none     &none     &none   &none  &none   &none
+&none  &none  &none  &none   &none     &trans    &trans  &none  &trans  &none
+              &none  &trans  &none     &trans    &trans  &none
             >;
         };
     };
