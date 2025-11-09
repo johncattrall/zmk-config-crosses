@@ -77,7 +77,7 @@
 
         shiftenter {
             bindings = <&shifted ENTER>;
-            key-positions = <31 34>;
+            key-positions = <32 33>;
         };
     };
 
