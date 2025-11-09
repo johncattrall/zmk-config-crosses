@@ -12,6 +12,15 @@
             tapping-term-ms = <350>;
             bindings = <&shifted>, <&kp>;
         };
+        as: auto_shift {
+            compatible = "zmk,behavior-hold-tap";
+            label = "AUTOSHIFT_KP";
+            #binding-cells = <2>;
+            tapping_term_ms = <200>;
+            quick_tap_ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
     };
 
     macros {
@@ -26,16 +35,6 @@
                 <&kp MACRO_PLACEHOLDER>,
                 <&macro_release>,
                 <&kp LSHFT>;
-        };
-
-        as: auto_shift {
-            compatible = "zmk,behavior-hold-tap";
-            label = "AUTOSHIFT_KP";
-            #binding-cells = <2>;
-            tapping_term_ms = <200>;
-            quick_tap_ms = <0>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
         };
     };
 };
