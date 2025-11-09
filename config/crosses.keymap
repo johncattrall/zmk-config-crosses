@@ -4,6 +4,12 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
+&hid_trackball_interface {
+    automouse-layer = <2>;
+    automouse-layer-timeout-ms = <600>;
+    // scroll-layers = <1>;
+    // snipe-layers = <3>;
+};
     behaviors {
         as_ht: autoshift_hold_tap {
             compatible = "zmk,behavior-hold-tap";
