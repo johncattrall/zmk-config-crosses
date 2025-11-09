@@ -110,10 +110,10 @@
 
         layer_2 {
             bindings = <
-&kp K_MUTE       &none           &none           &mkp RCLK        &mkp LCLK      &mkp MB1            &mkp MB2            &none           &none           &none
-&kp C_VOL_UP     &none           &kp UP_ARROW    &none            &kp PAGE_UP    &shifted LA(H)      &shifted LA(L)      &shifted LA(K)  &shifted LA(J)  &none
-&kp C_VOLUME_UP  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &kp EQUAL           &kp RBKT            &kp SQT         &kp PERIOD      &kp SLASH
-                                 &none           &none            &none          &shifted LA(ENTER)  &shifted LA(SPACE)  &kp SPACE
+&kp K_MUTE    &none           &none           &mkp RCLK        &mkp LCLK      &mkp MB1            &mkp MB2            &none           &none           &none
+&kp C_VOL_UP  &none           &kp UP_ARROW    &none            &kp PAGE_UP    &shifted LA(H)      &shifted LA(L)      &shifted LA(K)  &shifted LA(J)  &none
+&kp C_VOL_DN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &kp EQUAL           &kp RBKT            &kp SQT         &kp PERIOD      &kp SLASH
+                              &none           &none            &none          &shifted LA(ENTER)  &shifted LA(SPACE)  &kp SPACE
             >;
         };
 
