@@ -54,12 +54,12 @@
 
         layer1-combo-left {
             bindings = <&mo 1>;
-            key-positions = <32 24>;
+            key-positions = <24 31>;
         };
 
         layer2-combo-left {
             bindings = <&mo 2>;
-            key-positions = <23 32>;
+            key-positions = <23 31>;
         };
 
         layer1-combo-right {
@@ -84,37 +84,37 @@
 
         layer_0 {
             bindings = <
-&lt 3 Q  &as W  &as E     &as R            &as T       &as Y     &as U      &as I               &as O    &as P
-&as A    &as S  &as D     &as F            &as G       &as H     &as J      &as K               &as L    &kp BACKSPACE
-&as Z    &as X  &as C     &as V            &as B       &as N     &as M      &as COMMA           &as DOT  &as FSLH
-                &kp LGUI  &mt LCTRL SPACE  &mkp MB1    &mkp MB2  &kp ENTER  &mt LEFT_SHIFT TAB
+&lt 3 Q  &as W  &as E     &as R            &as T     &as Y     &as U      &as I               &as O    &as P
+&as A    &as S  &as D     &as F            &as G     &as H     &as J      &as K               &as L    &kp BACKSPACE
+&as Z    &as X  &as C     &as V            &as B     &as N     &as M      &as COMMA           &as DOT  &as FSLH
+                &kp LGUI  &mt LCTRL SPACE  &mkp MB1  &mkp MB2  &kp ENTER  &mt LEFT_SHIFT TAB
             >;
         };
 
         layer_1 {
             bindings = <
-&as NUMBER_1  &as NUMBER_2  &as NUMBER_3  &as NUMBER_4  &as NUMBER_5    &as NUMBER_6    &as N7            &as N8         &as NUMBER_9     &as NUMBER_0
-&kp ESCAPE    &kp N2        &kp N3        &mkp MB1      &mkp MB2        &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW   &kp RIGHT_ARROW  &kp SEMICOLON
-&as GRAVE     &kp LCTRL     &kp LEFT_ALT  &kp CAPS      &kp TAB         &as MINUS       &kp LEFT_BRACKET  &as SEMICOLON  &as SQT          &kp BACKSLASH
-                            &none         &none         &none           &kp F11         &kp F12           &kp SPACE
+&as NUMBER_1  &as NUMBER_2  &as NUMBER_3  &as NUMBER_4  &as NUMBER_5  &as NUMBER_6    &as N7            &as N8         &as NUMBER_9     &as NUMBER_0
+&kp ESCAPE    &kp N2        &kp N3        &mkp MB1      &mkp MB2      &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW   &kp RIGHT_ARROW  &kp SEMICOLON
+&as GRAVE     &kp LCTRL     &kp LEFT_ALT  &kp CAPS      &kp TAB       &as MINUS       &kp LEFT_BRACKET  &as SEMICOLON  &as SQT          &kp BACKSLASH
+                            &none         &none         &none         &kp F11         &kp F12           &kp SPACE
             >;
         };
 
         layer_2 {
             bindings = <
-&none  &none           &none           &none            &none            &none      &none     &none      &none       &none
-&none  &none           &kp UP_ARROW    &none            &kp PAGE_UP      &none      &none     &none      &none       &none
-&none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN    &kp EQUAL  &kp RBKT  &kp SQT    &kp PERIOD  &kp SLASH
-                       &none           &none            &none            &none      &none     &kp SPACE
+&none  &none           &none           &none            &none          &none      &none     &none      &none       &none
+&none  &none           &kp UP_ARROW    &none            &kp PAGE_UP    &none      &none     &none      &none       &none
+&none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &kp EQUAL  &kp RBKT  &kp SQT    &kp PERIOD  &kp SLASH
+                       &none           &none            &none          &none      &none     &kp SPACE
             >;
         };
 
         layer_3 {
             bindings = <
-&studio_unlock  &none  &none  &none  &none    &none       &none         &none         &none         &none
-&none           &none  &none  &none  &none    &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3
-&none           &none  &none  &none  &none    &none       &none         &none         &none         &none
-                       &none  &none  &none    &none       &none         &kp SPACE
+&studio_unlock  &none  &none  &none  &none  &none       &none         &none         &none         &none
+&none           &none  &none  &none  &none  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3
+&none           &none  &none  &none  &none  &none       &none         &none         &none         &none
+                       &none  &none  &none  &none       &none         &kp SPACE
             >;
         };
 
