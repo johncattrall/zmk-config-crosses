@@ -101,10 +101,10 @@
 
         layer_1 {
             bindings = <
-&as NUMBER_1  &as NUMBER_2  &as NUMBER_3  &as NUMBER_4  &as NUMBER_5  &as NUMBER_6    &as N7            &as N8         &as NUMBER_9     &as NUMBER_0
-&kp ESCAPE    &kp N2        &kp N3        &mkp MB1      &mkp MB2      &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW   &kp RIGHT_ARROW  &kp SEMICOLON
-&as GRAVE     &kp LCTRL     &kp LEFT_ALT  &kp CAPS      &kp TAB       &as MINUS       &kp LEFT_BRACKET  &as SEMICOLON  &as SQT          &kp BACKSLASH
-                            &none         &none         &none         &kp F11         &kp F12           &kp SPACE
+&as NUMBER_1  &as NUMBER_2  &as NUMBER_3  &as NUMBER_4  &as NUMBER_5   &as NUMBER_6    &as N7            &as N8         &as NUMBER_9     &as NUMBER_0
+&kp ESCAPE    &kp N2        &kp N3        &kp LC(LEFT)  &kp LC(RIGHT)  &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW   &kp RIGHT_ARROW  &kp SEMICOLON
+&as GRAVE     &kp LCTRL     &kp LEFT_ALT  &kp CAPS      &kp TAB        &as MINUS       &kp LEFT_BRACKET  &as SEMICOLON  &as SQT          &kp BACKSLASH
+                            &none         &none         &none          &kp F11         &kp F12           &kp SPACE
             >;
         };
 
