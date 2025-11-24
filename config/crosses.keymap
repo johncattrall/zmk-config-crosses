@@ -93,9 +93,9 @@
         layer_0 {
             bindings = <
 &lt 3 Q  &as W               &as E             &as R           &as T                 &as Y               &as U            &as I               &as O                &as P
-&as A    &mt LEFT_CONTROL S  &mt LEFT_ALT D    &mt LEFT_GUI F  &mt LEFT_SHIFT G      &mt H RIGHT_SHIFT   &mt RIGHT_GUI J  &mt RIGHT_ALT K     &mt RIGHT_CONTROL L  &kp BACKSPACE
+&as A    &mt LEFT_CONTROL S  &mt LEFT_ALT D    &mt LEFT_GUI F  &mt LEFT_SHIFT G      &mt RIGHT_SHIFT H   &mt RIGHT_GUI J  &mt RIGHT_ALT K     &mt RIGHT_CONTROL L  &kp BACKSPACE
 &as Z    &as X               &as C             &as V           &as B                 &as N               &as M            &as COMMA           &as DOT              &as FSLH
-                             &kp LEFT_CONTROL  &kp LEFT_GUI    &mt LEFT_SHIFT SPACE  &mt LEFT_ALT ENTER  &kp RIGHT_ALT    &mt LEFT_SHIFT TAB
+                             &kp LEFT_CONTROL  &kp LEFT_GUI    &mt LEFT_SHIFT SPACE  &mt LEFT_ALT ENTER  &to 1            &mt LEFT_SHIFT TAB
             >;
         };
 
@@ -104,7 +104,7 @@
 &as NUMBER_1  &as NUMBER_2  &as NUMBER_3  &as NUMBER_4  &as NUMBER_5  &as NUMBER_6    &as N7            &as N8         &as NUMBER_9     &as NUMBER_0
 &kp ESCAPE    &kp N2        &kp N3        &mkp MB1      &mkp MB2      &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW   &kp RIGHT_ARROW  &kp SEMICOLON
 &as GRAVE     &kp LCTRL     &kp LEFT_ALT  &kp CAPS      &kp TAB       &as MINUS       &kp LEFT_BRACKET  &as SEMICOLON  &as SQT          &kp BACKSLASH
-                            &none         &none         &none         &kp F11         &kp F12           &kp SPACE
+                            &none         &to 0         &none         &kp F11         &to 2             &kp SPACE
             >;
         };
 
@@ -113,7 +113,7 @@
 &kp K_MUTE    &none           &none           &mkp RCLK        &mkp LCLK      &kp LC(LEFT)        &kp LC(RIGHT)       &none           &none           &none
 &kp C_VOL_UP  &none           &kp UP_ARROW    &none            &kp PAGE_UP    &shifted LA(H)      &shifted LA(L)      &shifted LA(K)  &shifted LA(J)  &none
 &kp C_VOL_DN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &kp EQUAL           &kp RBKT            &kp SQT         &kp PERIOD      &kp SLASH
-                              &none           &none            &none          &shifted LA(ENTER)  &shifted LA(SPACE)  &kp SPACE
+                              &none           &to 0            &none          &shifted LA(ENTER)  &shifted LA(SPACE)  &kp SPACE
             >;
         };
 
