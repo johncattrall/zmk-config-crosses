@@ -93,7 +93,7 @@
         layer_0 {
             bindings = <
 &lt 3 Q  &as W               &as E           &as R           &as T                 &as Y               &as U            &as I               &as O                &as P
-&as A    &mt LEFT_CONTROL S  &mt LEFT_ALT D  &mt LEFT_GUI F  &mt LEFT_SHIFT G      &mt RIGHT_SHIFT H   &mt RIGHT_GUI J  &mt RIGHT_ALT K     &mt RIGHT_CONTROL L  &kp BACKSPACE
+&as A    &mt LEFT_CONTROL S  &mt LEFT_ALT D  &mt LEFT_GUI F  &mt LEFT_SHIFT G      &mt RIGHT_SHIFT H   &mt RIGHT_GUI J  &mt RIGHT_ALT K     &mt RIGHT_CONTROL L  &as SINGLE_QUOTE
 &as Z    &as X               &as C           &as V           &as B                 &as N               &as M            &as COMMA           &as DOT              &as FSLH
                              &kp ESCAPE      &kp BACKSPACE   &mt LEFT_SHIFT SPACE  &mt LEFT_ALT ENTER  &to 1            &mt LEFT_SHIFT TAB
             >;
@@ -102,7 +102,7 @@
         layer_1 {
             bindings = <
 &as NUMBER_1  &as NUMBER_2  &as NUMBER_3   &as NUMBER_4  &as NUMBER_5  &as NUMBER_6    &as N7            &as N8         &as NUMBER_9     &as NUMBER_0
-&kp ESCAPE    &kp N2        &kp N3         &mkp MB1      &mkp MB2      &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW   &kp RIGHT_ARROW  &kp SEMICOLON
+&kp ESCAPE    &trans        &trans         &trans        &trans        &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW   &kp RIGHT_ARROW  &kp SEMICOLON
 &as GRAVE     &kp LCTRL     &kp LEFT_ALT   &kp CAPS      &kp TAB       &as MINUS       &kp LEFT_BRACKET  &as SEMICOLON  &as SQT          &kp BACKSLASH
                             &kp BACKSPACE  &to 0         &kp SPACE     &kp ENTER       &to 2             &kp SPACE
             >;
